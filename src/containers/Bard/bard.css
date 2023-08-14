@@ -1,0 +1,100 @@
+.bard__bard {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+    background: var(--color-footer);
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 30% -100%, #3b1b0b 25%, rgb(20, 6, 84) 85%, rgb(9, 94, 186) 100%);
+    margin-right: 6.5%;
+    margin-left: 6.5%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.bard__bard-feature{
+    display: flex;
+}
+.bard__bard-feature .bard__feature-container__feature{
+    margin: 0;
+}
+.bard__bard-feature .bard__feature-container__feature-text{
+    max-width: 700px;
+}
+.bard__bard-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 0 2rem;
+}
+.bard__bard-heading h1{
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+    max-width: 510px;
+}
+.bard__bard-heading p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-subtext);
+    cursor: pointer;
+}
+.bard__bard-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+/* Customizing feature component as per needs */
+.bard__bard-container .bard__features-container__feature {
+    flex: 1;
+    margin: 1rem;
+    min-width: 210px;
+    display: unset;
+    flex-direction: column;
+}
+
+/* Customizing feature component as per needs */
+.bard__bard-container .bard__features-container_feature-text {
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 850px) {
+    .bard__bard-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+
+    .bard__bard-heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    /* Customizing feature component as per needs */
+    .bard__bard-feature .bard__features-container__feature {
+        flex-direction: column;
+    }
+
+    /* Customizing feature component as per needs */
+    .bard__bard-feature .bard__features-container_feature-text {
+        margin-top: 0.5rem;
+    }
+
+    .bard__bard-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    /* Customizing feature component as per needs */
+    .bard__bard-container .bard__features-container__feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}

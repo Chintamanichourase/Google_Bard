@@ -1,0 +1,105 @@
+.bard__header{
+    display: flex;
+}
+.bard__header-content{
+        flex:1;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-right: 5rem;
+}
+.bard__header-content h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.155rem;
+}
+.bard__header-content p{
+    font-family: var(--font-family);
+    font-size: 20px;
+    line-height: 27px;
+    color: rgb(61, 179, 230);
+}
+.bard__header-content__input{
+    width: 100%;
+    margin: 2rem 0 1rem;
+    display: flex;   
+}
+.bard__header-content__input input{
+    flex: 2;
+    width: 100%;
+    min-height: 50px;
+    background: var(--color-footer);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: var(--font-family);
+    font-size: 20px;
+    line-height: 27px;
+    border: 2px solid var(--color-footer);
+    padding: 0 1rem;
+    outline: none;
+    color: white;
+}
+.bard__header-content__input button{
+    flex: 0.6;
+    background:#e10d5e ;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: rgb(253, 254, 254);
+    cursor:  pointer;
+    outline: none;
+    padding: 0 1rem;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.bard__header-image{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bard__header-image img{
+    width:100%;
+    height: 100%;
+}
+@media screen and (max-width: 1050px){
+    .bard__header{
+        flex-direction: column;
+    }
+    .bard__header-content{
+        margin: 0 0 3rem;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .bard__header h1{
+        font-size: 48px;
+        line-height: 60px;
+    }
+    .bard__header p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .bard__header-content__input input,
+    .bard__header-content__input button{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+@media screen and (max-width:490px){
+    .bard__header h1{
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .bard__header p{
+        font: size 16px;
+        line-height: 24px;
+    }
+}
