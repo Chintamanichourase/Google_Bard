@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Chintamanichourase.github.io/Google_Bard/static/css/main.d6118b10.css",
-    "main.js": "/Chintamanichourase.github.io/Google_Bard/static/js/main.c8e254a0.js",
-    "static/media/b5.jpg": "/Chintamanichourase.github.io/Google_Bard/static/media/b5.723c2938c9fd631fb5a7.jpg",
-    "static/media/possibility.png": "/Chintamanichourase.github.io/Google_Bard/static/media/possibility.f6fbd385d56b6baefcca.png",
-    "static/media/b1.jpg": "/Chintamanichourase.github.io/Google_Bard/static/media/b1.c78e36115e91e80ce1d6.jpg",
-    "static/media/b4.jpg": "/Chintamanichourase.github.io/Google_Bard/static/media/b4.53e91206442d0b25232f.jpg",
-    "static/media/b2.jpg": "/Chintamanichourase.github.io/Google_Bard/static/media/b2.37dd5c115d4a17eff350.jpg",
-    "static/media/b3.jpg": "/Chintamanichourase.github.io/Google_Bard/static/media/b3.fd8170540ef9653d8777.jpg",
-    "static/media/ai.png": "/Chintamanichourase.github.io/Google_Bard/static/media/ai.a54a5654fbb1f3d71a72.png",
-    "static/media/logo.svg": "/Chintamanichourase.github.io/Google_Bard/static/media/logo.5726a81b8a74befa203affb21ac0a029.svg",
-    "index.html": "/Chintamanichourase.github.io/Google_Bard/index.html",
-    "main.d6118b10.css.map": "/Chintamanichourase.github.io/Google_Bard/static/css/main.d6118b10.css.map",
-    "main.c8e254a0.js.map": "/Chintamanichourase.github.io/Google_Bard/static/js/main.c8e254a0.js.map"
+    "main.css": "/Google_Bard/static/css/main.d6118b10.css",
+    "main.js": "/Google_Bard/static/js/main.f491fc16.js",
+    "static/media/b5.jpg": "/Google_Bard/static/media/b5.723c2938c9fd631fb5a7.jpg",
+    "static/media/possibility.png": "/Google_Bard/static/media/possibility.f6fbd385d56b6baefcca.png",
+    "static/media/b1.jpg": "/Google_Bard/static/media/b1.c78e36115e91e80ce1d6.jpg",
+    "static/media/b4.jpg": "/Google_Bard/static/media/b4.53e91206442d0b25232f.jpg",
+    "static/media/b2.jpg": "/Google_Bard/static/media/b2.37dd5c115d4a17eff350.jpg",
+    "static/media/b3.jpg": "/Google_Bard/static/media/b3.fd8170540ef9653d8777.jpg",
+    "static/media/ai.png": "/Google_Bard/static/media/ai.a54a5654fbb1f3d71a72.png",
+    "static/media/logo.svg": "/Google_Bard/static/media/logo.5726a81b8a74befa203affb21ac0a029.svg",
+    "index.html": "/Google_Bard/index.html",
+    "main.d6118b10.css.map": "/Google_Bard/static/css/main.d6118b10.css.map",
+    "main.f491fc16.js.map": "/Google_Bard/static/js/main.f491fc16.js.map"
   },
   "entrypoints": [
     "static/css/main.d6118b10.css",
-    "static/js/main.c8e254a0.js"
+    "static/js/main.f491fc16.js"
   ]
 }
