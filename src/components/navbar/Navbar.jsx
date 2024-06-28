@@ -6,7 +6,7 @@ import './navbar.css';
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
-  const {user,loginWithRedirect}=useAuth0();
+  const {user,loginWithRedirect,isAuthenticated,logout}=useAuth0();
   console.log("CURRENT USER",user);
   return (
     <div className="bard__navbar">
@@ -23,8 +23,12 @@ const Navbar = () => {
         </div>
       </div>
       <div className="bard__navbar-sign">
-        <p>Sign in</p>
-        <button type="button" onClick={()=>loginWithRedirect()}>Sign up</button>
+        {!isAuthenticated&&<p>Sign in</p>}
+        {isAuthenticated ?(
+              <button onClick={(e)=>logout()}>logout</button>
+             ):(
+              <button onClick={(e)=>loginWithRedirect()}>Sign up</button>
+             )}
       </div>
       <div className="bard__navbar-menu">
         {toggleMenu
@@ -41,7 +45,7 @@ const Navbar = () => {
           </div>
           <div className="bard__navbar-menu_container-links-sign">
             <p>Sign in</p>
-            <button type="button">Sign up</button>
+              
           </div>
         </div>
         )}
