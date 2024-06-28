@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
+import { useAuth0 } from '@auth0/auth0-react';
 import logo from '../../assets/logo.svg';
 import './navbar.css';
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
-
+  const {user,loginWithRedirect}=useAuth0();
+  console.log("CURRENT USER",user);
   return (
     <div className="bard__navbar">
       <div className="bard__navbar-links">
@@ -22,7 +24,7 @@ const Navbar = () => {
       </div>
       <div className="bard__navbar-sign">
         <p>Sign in</p>
-        <button type="button">Sign up</button>
+        <button type="button" onClick={()=>loginWithRedirect()}>Sign up</button>
       </div>
       <div className="bard__navbar-menu">
         {toggleMenu

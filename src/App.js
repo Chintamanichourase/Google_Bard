@@ -4,6 +4,7 @@ import {Blog,Features,Footer,Header,Possibility,Bard} from './containers'
 import './App.css'
 function App() {
   return (
+    
     <div className="App">
         <div className="gradient__bg">
           <Navbar/>
@@ -19,5 +20,4 @@ function App() {
     </div>
   )
 }
-
 export default App
